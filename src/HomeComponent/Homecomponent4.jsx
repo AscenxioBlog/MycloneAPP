@@ -12,7 +12,15 @@ function Homecomponent4() {
             <p className=' font-[poppins]'>Our designer are already made a lot of beautiful <br /> prototype of rooms that inspire you</p>
             <button  className=' md:h-[45px] md:w-[180px] lg:h-[45px] lg:w-[180px] bg-[#B88E2F] text-[white] font-[poppins] font-bold mt-3'>Explore More</button>
             </div>
-            <div className="Hcompo41 min-h-[200px] w-[150px] bg-orange-600 md:min-h-[400px] md:w-[250px] lg:min-h-[400px] lg:w-[400px]"></div>
+            <div className="Hcompo41 min-h-[200px] w-[150px] bg-orange-600 md:min-h-[400px] md:w-[250px] lg:min-h-[400px] lg:w-[400px] flex place-items-end p-5">
+                <div className=" h-[100px] w-[250px] bg- flex">
+                    <div className=" h-[100px] w-[70%] bg-[#ffffff97] flex flex-col justify-center place-items-center">
+                        <h1>01 - Bed Room</h1>
+                        <p className=' text-[20px] font-bold'>Inner peace</p>
+                    </div>
+                    <div className=" h-[40px] w-[50px] bg-[#B88E2F] place-self-end text-[25px] text-[white] flex justify-center place-items-center"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
             <div className=" min-h-[200px] w-[150px] md:min-h-[400px] md:w-[250px] lg:min-h-[400px] lg:w-[400px] grid grid-rows-[80%,20%]">
             <div className="Hcompo42 relative">
             <div className=" h-[45px] w-[45px] bg-[white] absolute top-[80px] md:top-[150px] lg:top-[150px] right-[-15px] rounded-[50%] flex justify-center place-items-center"><i class="fa-solid fa-chevron-right"></i></div>
