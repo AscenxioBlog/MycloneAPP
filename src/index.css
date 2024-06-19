@@ -1,0 +1,260 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+.Hcompo{
+    background-image: url(images/com11.jpg);
+    background-size: 80% 100%;
+    background-position: center;
+
+}
+
+.Hcompo21{
+    background-image: url(images/dining.png);
+    background-size: 110% 100%;
+    background-position: center;
+
+}
+.Hcompo22{
+    background-image: url(images/living.png);
+    background-size: 180% 100%;
+    background-position: right;
+
+
+}
+
+.Hcompo31{
+    background-image: url(images/slyliderin.png);
+    background-size: 100% 115%;
+    /* background-position: right; */
+}
+.Hcompo32{
+    background-image: url(images/leviosa.png);
+    background-size: 100% 115%;
+    /* background-position: right; */
+}
+.Hcompo33{
+    background-image: url(images/lovito.png);
+    background-size: 140% 100%;
+    background-position: center;
+}
+.Hcompo34{
+    background-image: url(images/living-in.PNG);
+    background-size: 140% 100%;
+    background-position: center;
+}
+.Hcompo35{
+    background-image: url(images/griffo.png);
+    background-size: 100% 190%;
+    background-position: top;
+}
+
+.Hcompo36{
+    background-image: url(images/moggo.png);
+    background-size: 150% 100%;
+    background-position: center;
+}
+.Hcompo37{
+    background-image: url(images/pigky1.jpg);
+    background-size: 150% 100%;
+    background-position: center;
+}
+.Hcompo38{
+    background-image: url(images/potty1.jpg);
+    background-size: 150% 100%;
+    background-position: center;
+}
+
+.Hcompo23{
+    background-image: url(images/bedroom.png);
+    background-size: 110% 100%;
+    background-position: center;
+
+}
+.subcard1{
+    opacity: 0;
+}
+
+.card1:hover .subcard1{
+    bottom: 0;
+    opacity: 1;
+    transition: bottom 1s, opacity 1.5s;
+
+}
+.showBtn{
+    border: 2px solid #B88E2F;
+    color: #B88E2F;
+    font-family: poppins;
+    font-weight:bold ;
+}
+
+.Hcompo41{
+    background-image: url(images/innerpeace.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.Hcompo42{
+    background-image: url(images/nextPeace.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.Hcompo43{
+    background-image: url(images/sliding1.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.Abs{
+border: 1px solid #B88E2F;
+}
+
+.Hcompo51{
+    background-image: url(images/Rectangle.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.Hcompo52{
+    background-image: url(images/side2.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.Hcompo53{
+    background-image: url(images/side3.png);
+    background-size: 100% 140%;
+    background-position: center;
+}
+.Hcompo54{
+    background-image: url(images/side4.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.Hcompo55{
+    background-image: url(images/side5.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.Hcompo56{
+    background-image: url(images/side6.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.Hcompo57{
+    background-image: url(images/side7.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.Hcompo58{
+    background-image: url(images/side8.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.Hcompo59{
+    background-image: url(images/side9.png);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
+
+
+/* SHOP COMPONENT STYLING */
+
+.Scompo1{
+    background-image: url(images/shop1.jpg);
+    background-size: 100% 250%;
+    background-position: center;
+    background-color: rgba(128, 128, 128, 0.679);
+    background-blend-mode: saturation;
+}
+.sborder{
+    border-right: 2px solid gray;
+}
+.Showinput input{
+    height: inherit;
+    width: inherit;
+}
+.Shortby select{
+    height: inherit;
+    width: inherit;
+}
+.Contactform{
+    line-height: 10px;
+}
+
+
+.Contactform input{
+    /* background-color: #B88E2F; */
+    height: 50px;
+    width: 60%;
+    border-radius: 8px;
+    padding-left: 10px;
+    border: 1px solid gray;
+    /* margin-bottom: 10px; */
+}
+.Contactform span{
+    font-size: 15px;
+    font-weight: bold;
+    /* margin-bottom: -10px; */
+}
+
+.Lastinput input{
+    height: 80px;
+    width: 60%;
+    border-radius: 8px;
+
+}
+
+.submit input{
+    height: 40px;
+    width: 25%;
+    border-radius: 8px;
+    background-color: #B88E2F;
+    color: white;
+}
+
+.Newsletter input{
+    border-bottom: 2px solid gray;
+    height: 28px;
+    width: 180px;
+
+}
+.Newsletter button{
+    height: 28px;
+     margin-left:2px;
+     font-size: small;
+    border-bottom: 2px solid gray;
+    font-weight: bold;
+
+     
+}
+.footer{
+    margin-top: 50px;
+    border-top: 2px solid gray;
+    
+}
+.subdiv{
+    border-bottom: 2px solid gray;
+
+}
+
+.cartinput input{
+    height: inherit;
+    width: 70px;
+    background-color: transparent;
+    text-align: center;
+}
+.compare{
+    background-image: url(images/Rectangle2.png);
+    
+}
+.myinp::placeholder{
+    color: gray;
+    text-align: end;
+}
